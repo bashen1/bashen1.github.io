@@ -9,5 +9,20 @@
         "name": "bashen1"
     },
     "items": [
+        {
+            "id": "https://bashen1.github.io/lipo-ming-ling-chai-fenhe-bing-jing-tai-ku.html",
+            "url": "https://bashen1.github.io/lipo-ming-ling-chai-fenhe-bing-jing-tai-ku.html",
+            "title": "lipo 命令拆分、合并静态库",
+            "summary": "查看库框架 lipo -info 库路径 lipo 原库路径 -thin 框架名称(armv7、arm64、x86_64) -output 新库存放路径/新库名 lipo -create&hellip;",
+            "content_html": "<h2 id=\"查看库框架\">查看库框架</h2>\n<p>lipo -info 库路径</p><h2 id=\"拆分库\">拆分库</h2>\n<p>lipo 原库路径 -thin 框架名称(armv7、arm64、x86_64) -output 新库存放路径/新库名</p><h2 id=\"合并库\">合并库</h2>\n<p>lipo -create 原库1路径 原库2路径 -output 新库存放路径/新库名</p>",
+            "author": {
+                "name": "bashen1"
+            },
+            "tags": [
+                   "iOS"
+            ],
+            "date_published": "2024-09-15T13:11:59+08:00",
+            "date_modified": "2024-09-15T13:11:59+08:00"
+        }
     ]
 }

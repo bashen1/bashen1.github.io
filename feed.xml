@@ -3,10 +3,34 @@
     <title>孑愁笔记</title>
     <link href="https://bashen1.github.io/feed.xml" rel="self" />
     <link href="https://bashen1.github.io" />
-    <updated>1970-01-01T08:00:00+08:00</updated>
+    <updated>2024-09-15T13:11:59+08:00</updated>
     <author>
         <name>bashen1</name>
     </author>
     <id>https://bashen1.github.io</id>
 
+    <entry>
+        <title>lipo 命令拆分、合并静态库</title>
+        <author>
+            <name>bashen1</name>
+        </author>
+        <link href="https://bashen1.github.io/lipo-ming-ling-chai-fenhe-bing-jing-tai-ku.html"/>
+        <id>https://bashen1.github.io/lipo-ming-ling-chai-fenhe-bing-jing-tai-ku.html</id>
+            <category term="iOS"/>
+
+        <updated>2024-09-15T13:11:59+08:00</updated>
+            <summary>
+                <![CDATA[
+                    查看库框架 lipo -info 库路径 lipo 原库路径 -thin 框架名称(armv7、arm64、x86_64) -output 新库存放路径/新库名 lipo -create&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <h2 id="查看库框架">查看库框架</h2>
+<p>lipo -info 库路径</p><h2 id="拆分库">拆分库</h2>
+<p>lipo 原库路径 -thin 框架名称(armv7、arm64、x86_64) -output 新库存放路径/新库名</p><h2 id="合并库">合并库</h2>
+<p>lipo -create 原库1路径 原库2路径 -output 新库存放路径/新库名</p>
+            ]]>
+        </content>
+    </entry>
 </feed>
